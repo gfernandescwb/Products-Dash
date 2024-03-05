@@ -42,7 +42,7 @@ describe("App", () => {
     await vi.waitFor(() => {
       expect(dispatchSpy).toHaveBeenCalledWith(
         expect.objectContaining({
-          type: 'auth/setUser', // Este tipo de ação depende da sua implementação específica
+          type: 'auth/setUser',
           payload: expect.objectContaining({
             username: 'Admin',
             email: 'admin@admin.com',
