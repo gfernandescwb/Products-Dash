@@ -1,30 +1,62 @@
-# React + TypeScript + Vite
+# Teste - React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Projeto desenvolvido em React JS criando, listando e excluindo produtos. As techs usadas sao:
+- React JS
+- Redux
+- Tailwind CSS
+- Vite
+- Vitest
+- Typescript
+- Supabase
+- PostCSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Todas as imagens sao salvas e baixadas, upload e download, direto do bucket do Supabase. As credenciais do Supabase sao salvas no .env ja configurado.
 
-## Expanding the ESLint configuration
+## Instalação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+npm install # ou yarn
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Rodar o projeto
+
+```bash
+npm run dev # ou yarn dev
+```
+
+## Rodar os testes
+
+```bash
+npm run test # ou yarn test
+```
+
+## Observações
+
+### Usuário padrão
+
+- Email: *admin@admin.com*
+- Senha: *admin*
+
+- O projeto foi desenvolvido com o Vite, entao a pasta public nao existe, o arquivo index.html esta na pasta raiz.
+- O projeto foi desenvolvido com Typescript, entao todos os arquivos sao .tsx.
+- O projeto foi desenvolvido com Tailwind CSS, entao nao existe um arquivo de estilos separado, todos os estilos estao nos arquivos .tsx.
+- O projeto foi desenvolvido com Redux, entao existe um arquivo de store e um arquivo de actions.
+- O projeto foi desenvolvido com Supabase, entao existe um arquivo de conexao com o banco de dados.
+- O projeto foi desenvolvido com Vitest, entao existe um arquivo de configuracao do teste.
+- O projeto foi desenvolvido com PostCSS, entao existe um arquivo de configuracao do PostCSS.
+
+## Emacs
+
+Link para o [Doom Emacs](https://github.com/doomemacs/doomemacs)
+
+- O projeto foi desenvolvido com Doom Emacs, para referenciar o projeto existe um arquivo .projectile na raiz do projeto.
+
+## Sistema Operacional
+
+- Voidlinux
+- BSPWM
+- Alacritty
+- Bash
+- Doom Emacs
